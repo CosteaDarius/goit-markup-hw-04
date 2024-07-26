@@ -105,9 +105,9 @@ body {
   background-color: #2E2F42B2;
   background-image: url(/images/people-ofice.jpg);
   max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
   display: flex;
   padding: 188px 0;
   text-align: center;
