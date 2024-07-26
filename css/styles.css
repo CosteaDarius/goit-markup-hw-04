@@ -102,13 +102,13 @@ body {
 /* Main */
 
 .title-hero {
-  background-color: #2E2F42B2;
+  display: flex;
+  background-color: #2e2f42b2;
   background-image: url(/images/people-ofice.jpg);
   max-width: 1440px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
   text-align: center;
 }
@@ -227,9 +227,10 @@ background-size: cover;
 .list-tird-section {
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
-  text-align: center; 
+  text-align: center;
 }
 
 .team-person-name {
@@ -311,7 +312,7 @@ background-size: cover;
 }
 
 .title-img {
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* Footer */
