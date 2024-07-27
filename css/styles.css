@@ -65,18 +65,9 @@ body {
   max-width: 1440px;
 }
 
-.footer-link-after {
-  content: "";
-  position: relative;
-  width: 48px;
-  height: 4px;
-  top: 44px;
-  gap: 0px;
-  border-radius: 2px 0px 0px 0px;
-  opacity: 0px;
-
-  height: 100%;
-  background-color: #404bbf;
+.footer-link {
+  content: '';
+  color: #404bbf;
 }
 
 .container-menu {
