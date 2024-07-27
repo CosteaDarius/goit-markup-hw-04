@@ -62,6 +62,7 @@ body {
 
 .header-box {
   border-bottom: 1px solid #e7e9fc;
+  max-width: 1440px;
 }
 
 .container-menu {
@@ -100,6 +101,10 @@ body {
 }
 
 /* Main */
+
+.main-box {
+  max-width: 1440px;
+}
 
 .title-hero {
   display: flex;
@@ -324,6 +329,7 @@ body {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
+  max-width: 1440px;
 }
 
 .logo-footer {
