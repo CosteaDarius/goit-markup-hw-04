@@ -380,6 +380,11 @@ body {
   align-items: baseline;
 }
 
+.social-icon {
+  display: flex;
+  align-items: baseline;
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
