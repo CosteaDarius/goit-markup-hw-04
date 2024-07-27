@@ -124,8 +124,26 @@ body {
 }
 
 .menu-item:first-child .link:hover {
-  color: #ff0000;
-}  
+  color: #ff0000; /* Schimbă această culoare după preferințe */
+}
+
+/* Tranziție pentru primul element din lista de contacte */
+.contacts-box .contact-item:first-child .link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-box .contact-item:first-child .link:hover {
+  color: #ff0000; /* Schimbă această culoare după preferințe */
+}
+
+/* Tranziție pentru al doilea element din lista de contacte */
+.contacts-box .contact-item:nth-child(2) .link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-box .contact-item:nth-child(2) .link:hover {
+  color: #00ff00; /* Schimbă această culoare după preferințe */
+}
 
 /* Main */
 
