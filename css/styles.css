@@ -70,11 +70,13 @@ body {
 }
 
 .footer-link::after {
+position: absolute;  
 content: '';
-color: #404BBF;
 top: 20;
-bottom: 0;
-height: 100%;
+height: 4px;
+width: 48px;
+bottom: 1px;
+width: 100%;
 }
 
 .container-menu {
