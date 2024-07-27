@@ -73,10 +73,13 @@ body {
 .footer-link::after {
 position: absolute;  
 content: '';
+background-color: #404bbf;;
+left: 0;
+bottom: -1px;
 top: 20;
 height: 4px;
-bottom: 1px;
 width: 100%;
+border-radius: 2px;
 }
 
 .container-menu {
