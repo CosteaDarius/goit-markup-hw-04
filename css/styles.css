@@ -410,3 +410,8 @@ body {
   display: flex;
   align-items: baseline;
 }
+
+.social-icon {
+  margin-right: 120px;
+  
+}
