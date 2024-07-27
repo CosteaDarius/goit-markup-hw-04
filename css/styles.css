@@ -66,8 +66,15 @@ body {
 }
 
 .footer-link {
-  content: '';
   color: #404bbf;
+}
+
+.footer-link::after {
+content: '';
+color: #404BBF;
+top: 20;
+bottom: 0;
+height: 100%;
 }
 
 .container-menu {
