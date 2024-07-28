@@ -438,7 +438,7 @@ body {
   font-size: 18px;
   transition: background-color 0.3s ease;
   padding: 0; /* Asigură-te că padding-ul este 0 */
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .link-social:hover {
