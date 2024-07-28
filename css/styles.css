@@ -422,3 +422,8 @@ body {
   color: #FFFFFF;
   margin-bottom: 16px;
 }
+
+.ul-social-media-footer {
+  display: flex;
+  gap: 16px;
+}
