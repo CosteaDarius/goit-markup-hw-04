@@ -409,7 +409,7 @@ body {
   left: 540px;
   gap: 0px;
   opacity: 0px;
-  
+
 }
 
 .paragraf-social-media {
@@ -419,4 +419,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 16px;
 }
