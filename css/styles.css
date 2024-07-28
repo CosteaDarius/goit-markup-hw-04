@@ -403,5 +403,20 @@ body {
 }
 
 .social-media {
+  width: 208px;
+  height: 80px;
+  top: 3256px;
+  left: 540px;
+  gap: 0px;
+  opacity: 0px;
   
+}
+
+.paragraf-social-media {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
