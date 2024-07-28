@@ -213,7 +213,7 @@ body {
   padding: 120px 0;
 }
 
-.div-tird-section {
+.icon-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,7 +222,6 @@ body {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  
 }
 
 .titlu-sectiune-principala {
