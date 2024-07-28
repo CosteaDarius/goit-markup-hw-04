@@ -441,7 +441,11 @@ body {
 }
 
 .link-social:hover {
-  background-color: #3a4fdb;
+  background-color: #31d0aa;
+}
+
+.link-social:focus {
+  background-color: #31d0aa;
 }
 
 .link-social i {
