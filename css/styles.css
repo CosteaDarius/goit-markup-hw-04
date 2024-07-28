@@ -428,10 +428,8 @@ body {
 }
 
 .social-media-list {
-  height: 40px;
   width: 40px;
-  gap: 0px;
-  opacity: 0px;
+  height: 40px;
 }
 
 .link-social {
