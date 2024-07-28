@@ -371,7 +371,16 @@ body {
 
 }
 
-.paragraf-forth-section {}
+.paragraf-forth-section {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+}
 
 .app-information {
   padding: 32px 16px;
