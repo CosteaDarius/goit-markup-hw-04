@@ -356,15 +356,12 @@ body {
 
 .portofolio-item {
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative; /* Added for absolute positioning of child elements */
-  overflow: hidden; /* Added to manage overflowing content */
 }
 
 .portofolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform: translateY(-10px); /* Adjusted for a smoother animation */
+  transform: translateY(0%);
 }
 
 .hover-change-div {
@@ -372,24 +369,21 @@ body {
   overflow: hidden;
 }
 
-.paragraf-forth-section {
+.p-hiden {
   position: absolute;
-  top: 100%; /* Start off screen */
-  left: 0;
+  top: 0;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 100%; /* Ensure it spans the full width of the parent */
-}
-
-.portofolio-item:hover .paragraf-forth-section {
-  transform: translateY(-100%); /* Slide up into view */
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .app-information {
