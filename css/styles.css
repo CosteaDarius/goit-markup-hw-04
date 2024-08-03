@@ -62,7 +62,6 @@ body {
 
 .header-box {
   border-bottom: 1px solid #e7e9fc;
-  max-width: 1440px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -74,6 +73,8 @@ body {
 
 .footer-link::after {
   position: absolute;
+  max-width: 1440px;
+  background-position: center;
   content: "";
   background-color: #404bbf;
   left: 0;
@@ -146,17 +147,19 @@ body {
 /* Main */
 
 .main-box {
-  max-width: 1440px;
+
 }
 
 .title-hero {
   display: flex;
+  justify-content: center; /* Centrează conținutul orizontal */
+  align-items: center; /* Centrează conținutul vertical */
+  flex-direction: column; /* Afișează elementele (h1 și buton) unul sub altul */
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/people-ofice.jpg);
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -301,7 +304,6 @@ body {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 
 /* Stilul numelui membrului echipei */
@@ -380,6 +382,12 @@ body {
 
 .portofolio {
   margin-bottom: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
 }
 
 .portofolio-list {
@@ -438,7 +446,7 @@ body {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
-  max-width: 1440px;
+  
 }
 
 .icon-footer {
